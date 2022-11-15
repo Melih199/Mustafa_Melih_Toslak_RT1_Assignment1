@@ -1,5 +1,6 @@
-Assignment I: Research Track
-================================
+                                                          RESEARCH TRACK 1 
+                                                            ASSIGNMENT 1
+                                                  ================================
 
 # The goal of assignment
 
