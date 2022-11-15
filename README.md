@@ -1,17 +1,9 @@
-RESEARCH TRACK 1 
-  ASSIGNMENT 1
-=======================
+#                                    RESEARCH TRACK 1  ASSIGNMENT 1
 
-# The goal of assignment
-
+#GOAL 
 
 The robot must autonomously detect the closest silver box in the area, then move towards it and grab it. After catching the silver robot, he must detect the closest Gold box in the corners, move towards it and release the silver box in front of the gold box. This process should continue until there is no silver box that has never been grabbed.
 
-
-![Ekran Görüntüsü - 2022-11-15 11-00-02](https://user-images.githubusercontent.com/117012520/201890407-9aea9794-5551-49b5-9072-dd5033064d13.png)
-![Ekran Görüntüsü - 2022-11-15 11-00-16](https://user-images.githubusercontent.com/117012520/201890414-a7db9b6d-6eb9-4abb-915e-25b59bed3ac0.png)
-![Ekran Görüntüsü - 2022-11-15 11-00-26](https://user-images.githubusercontent.com/117012520/201890435-3c42f844-98cc-406d-8d51-863267a887c9.png)
-![Ekran Görüntüsü - 2022-11-15 11-01-05](https://user-images.githubusercontent.com/117012520/201890442-bf79ffb9-ef43-4b43-8d4c-0b31a5f8515b.png)
 
 
 ### Installing and running
