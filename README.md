@@ -1,5 +1,5 @@
-# RESEARCH TRACK 1  ASSIGNMENT 1
-=========================
+ RESEARCH TRACK 1  ASSIGNMENT 1
+================================
 
 ## Goal Of The Assıgnment
 
@@ -10,6 +10,7 @@ The aim of this assignment is create a python node that:
 3. After grabing silver token, **find closest golden token** and **release** the silver token near to golden one.
 4. Repeat these prosesses **whitout using same silver and golden tokens** until there are no silver tokens left.
 
+----------------------------------
 
 ## Installation
 
@@ -21,7 +22,11 @@ Pygame, unfortunately, can be tricky (though [not impossible](http://askubuntu.c
 
 ## How To Run
 
----------------------------
+The solutions of the assignment can be found in the **solutions (python_simulator/robot-sim/solutions)** file. In this directory, there are three different solutions of the assignment:
+
+.Not_autonomous_solution.py
+.Semi_autonomous_solution.py
+.Full_autonomous_solution.py
 
 
 
