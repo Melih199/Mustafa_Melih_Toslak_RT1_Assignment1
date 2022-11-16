@@ -1,8 +1,13 @@
-#                                    RESEARCH TRACK 1  ASSIGNMENT 1
+# RESEARCH TRACK 1  ASSIGNMENT 1
 
-#GOAL 
+## GOAL 
 
-The robot must autonomously detect the closest silver box in the area, then move towards it and grab it. After catching the silver robot, he must detect the closest Gold box in the corners, move towards it and release the silver box in front of the gold box. This process should continue until there is no silver box that has never been grabbed.
+The aim of this assignment is create a python node that: 
+
+1- Give ability to robot *distinguish between silver and golden tokens*.
+2- Find the *closest silver token* and *grab* it.
+3- After grabing silver token, *find closest golden token* and *release* the silver token near to golden one.
+4- Repeat these prosesses whitout using same silver and golden tokens until there are no silver tokens left.
 
 
 
