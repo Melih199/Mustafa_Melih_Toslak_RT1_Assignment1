@@ -49,13 +49,14 @@ On Ubuntu, this can be accomplished by:
 
 ## Not Autonomous Solution
 
-In this solution the path of the robot allready given with two array: 
+In this solution the path of the robot already given with two array: 
 
 * silver_tokens_offset_number = [3,2,1,0,5,4]
 * golden_tokens_offset_number = [11,10,9,8,7,6]
 
 First of all robot will search and find the silver token which offset number is equal to the first element of the **silver_tokens_offset_number** array, then it will grab it. When graping is done, robot will search for golden token token which offset number is equal to the first element of the **golden_tokens_offset_number** array and it will release the silver token near to golden token and the process will continue with the other elements of the both arrays, respectively until all the elements of arrays are processed.
 
+Note: The issue of this solution is you have to find the offset numbers of tokens and write in the arrays **manually**. 
 
 
 
