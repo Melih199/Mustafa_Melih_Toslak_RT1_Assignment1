@@ -34,6 +34,20 @@ To run these solutions in the simulator **cd** to **robot-sim** directory, use `
  - Semi autonomous &rarr; ``` $ python run.py solutions/Semi_autonomous_solution.py ```
  - Full autonomous  &rarr; ``` $ python run.py solutions/Full_autonomous_solution.py ```
 
+---------------------------------
+
+## Troubleshooting
+
+When running `python run.py <file>`, you may be presented with an error: `ImportError: No module named 'robot'`. This may be due to a conflict between sr.tools and sr.robot. To resolve, symlink simulator/sr/robot to the location of sr.tools.
+
+On Ubuntu, this can be accomplished by:
+* Find the location of srtools: `pip show sr.tools`
+* Get the location. In my case this was `/usr/local/lib/python2.7/dist-packages`
+* Create symlink: `ln -s path/to/simulator/sr/robot /usr/local/lib/python2.7/dist-packages/sr/`
+
+-----------------------------------
+
+## Not Autonomous Solution 
 
 
 
@@ -43,15 +57,7 @@ To run these solutions in the simulator **cd** to **robot-sim** directory, use `
 
 
 
-## SOLUTIONS 
------------------------------
 
-To run one or more scripts in the simulator, use `run.py`, passing it the file names. 
-
-I am proposing you three solutions(non-autonomous, semi-autonomous and full-autonomous), with an increasing level of difficulty.
-The instruction for the three exercises can be found inside the .py files (NOT.py, semi.py, FULL.py).
-
-When done, you can run the programs with:
 
 ## 1) NON AUTONOMOUS SOLUTION
 
