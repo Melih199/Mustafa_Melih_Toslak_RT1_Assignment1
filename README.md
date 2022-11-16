@@ -58,9 +58,9 @@ First of all robot will search and find the silver token which offset number is 
 
 Note: The issue of this solution is you have to find the offset numbers of tokens and write in the arrays **manually**. 
 
+![Not_Autonomous_Path](https://user-images.githubusercontent.com/58879182/202065266-b522196a-5574-4ed6-9bd9-49be95bafaf7.png)
 
-
-
+-----------------------------------
 
 
 
