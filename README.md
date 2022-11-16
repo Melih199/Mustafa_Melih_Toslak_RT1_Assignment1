@@ -24,9 +24,9 @@ Pygame, unfortunately, can be tricky (though [not impossible](http://askubuntu.c
 
 The solutions of the assignment can be found in the **solutions (python_simulator/robot-sim/solutions)** file. In this directory, there are three different solutions of the assignment:
 
-. Not_autonomous_solution.py
-. Semi_autonomous_solution.py
-. Full_autonomous_solution.py
++ Not_autonomous_solution.py
++ Semi_autonomous_solution.py
++ Full_autonomous_solution.py
 
 
 
