@@ -1,22 +1,30 @@
 # RESEARCH TRACK 1  ASSIGNMENT 1
 -------------------------------------------------
 ## Goal Of The Assıgnment
-
+----------------------------
 The aim of this assignment is create a python node that: 
 
 1. Give ability to robot **distinguish between silver** and **golden tokens**.
 2. Find the **closest silver token** and **grab** it.
 3. After grabing silver token, **find closest golden token** and **release** the silver token near to golden one.
 4. Repeat these prosesses **whitout using same silver and golden tokens** until there are no silver tokens left.
-
 ---------------------------------------------------
 
 ## Installation
-
 ----------------------
 The simulator requires a **Python 2.7** installation, the [pygame](http://pygame.org/) library, [PyPyBox2D](https://pypi.python.org/pypi/pypybox2d/2.1-r331), and [PyYAML](https://pypi.python.org/pypi/PyYAML/).
 
 Pygame, unfortunately, can be tricky (though [not impossible](http://askubuntu.com/q/312767)) to install in virtual environments. If you are using `pip`, you might try `pip install hg+https://bitbucket.org/pygame/pygame`, or you could use your operating system's package manager. Windows users could use [Portable Python](http://portablepython.com/). PyPyBox2D and PyYAML are more forgiving, and should install just fine using `pip` or `easy_install`.
+-----------------------------
+
+## How To Run
+
+---------------------------
+
+
+
+
+
 
 ## SOLUTIONS 
 -----------------------------
