@@ -30,7 +30,7 @@ The solutions of the assignment can be found in the **solutions (python_simulato
 
 To run these solutions in the simulator **cd** to **robot-sim** directory, use `run.py`, passing it the file names.
 
-  +Not autonomous &rarr asda
+  +Not autonomous &rarr; asda
 
 
 
