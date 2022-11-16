@@ -111,7 +111,7 @@ In this solution "manually entering" issues from Not autonomous and semi autonom
  ```
 Note: When integer variable coplete is equal to 24 this mean our Robot turned 360 degree. Turn(40,0.1) function is turning our robot 15 degree (15*24=360).
 
-
+### Flowchart Of The Full Autonomous Solution
 
 
 
