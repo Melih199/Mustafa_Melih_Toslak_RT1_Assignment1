@@ -76,7 +76,7 @@ The Semi autonomous solution can be thought of as upgrading Non autonomous solut
 * Not using already taken silver and golden tokens.
 * Ending task when all **12** tokens are used.
 
-Note: Although the robot's autonomous level increases with this solution, the user must specify the total token number **manually** in the code.
+**Note:** Although the robot's autonomous level increases with this solution, the user must specify the total token number **manually** in the code.
 
 ```python
  if len(Taken_tokens)==12:                       
@@ -109,113 +109,47 @@ In this solution "manually entering" issues from Not autonomous and semi autonom
 				print("MISSION COMPLETE")
 				exit()        # And the System because there is no any silver token left
  ```
-Note: When integer variable coplete is equal to 24 this mean our Robot turned 360 degree. Turn(40,0.1) function is turning our robot 15 degree (15*24=360).
+**Note:** When integer variable coplete is equal to 24 this mean our Robot turned 360 degree. Turn(40,0.1) function is turning our robot 15 degree (15*24=360).
 
 ### Flowchart Of The Full Autonomous Solution
 
 ![Full_autonomous_Flowchart_basic](https://user-images.githubusercontent.com/58879182/202076049-4c5f786d-598a-4f5f-8d76-94f5d5713e7a.png)
 
+---------------------------------------
 
-
-
-
-
-
-
-
-
-
-
-## 1) NON AUTONOMOUS SOLUTION
-
-```bash
-$ python run.py NOT.py
-```
-## 2) SEMI AUTONOMOUS SOLUTION
-```bash
-$ python run.py semi.py
-```
-## 3)FULL AUTONOMOUS SOLUTION
-
-```bash
-$ python FULL.py NOT.py
-```
-## FLOW CHART FULL-AUTONOMOUS
-
-![Ekran Görüntüsü - 2022-11-15 11-50-39](https://user-images.githubusercontent.com/117012520/201902114-55ff5ecb-5398-48e1-a9e5-1c3c8627db7c.png)
-![Ekran Görüntüsü - 2022-11-15 11-50-10](https://user-images.githubusercontent.com/117012520/201902122-87af2adc-5e84-4b44-afb8-71c7a1292f28.png)
-![Ekran Görüntüsü - 2022-11-15 11-47-32](https://user-images.githubusercontent.com/117012520/201902137-189651ee-0d67-4424-9af2-ea4c32dfd821.png)
-![Ekran Görüntüsü - 2022-11-15 11-48-46](https://user-images.githubusercontent.com/117012520/201902143-391aa100-951a-41f4-8305-c6d2640ce4bc.png)
-
-
-
-
-### Robot API
-
----------
-
-
+### Functionalities And Informations About Robot API
 
 The API for controlling a simulated robot is designed to be as similar as possible to the [SR API][sr-api].
 
-
-
 ### Motors ###
-
-
 
 The simulated robot has two motors configured for skid steering, connected to a two-output [Motor Board](https://studentrobotics.org/docs/kit/motor_board). The left motor is connected to output `0` and the right motor to output `1`.
 
-
-
 The Motor Board API is identical to [that of the SR API](https://studentrobotics.org/docs/programming/sr/motors/), except that motor boards cannot be addressed by serial number. So, to turn on the spot at one quarter of full power, one might write the following:
-
-
 
 ```python
 R.motors[0].m0.power = 25
 R.motors[0].m1.power = -25
+
 ```
-
-
-
 ### The Grabber ###
 
-
-
 The robot is equipped with a grabber, capable of picking up a token which is in front of the robot and within 0.4 metres of the robot's centre. To pick up a token, call the `R.grab` method:
-
-
 
 ```python
 success = R.grab()
 ```
-
-
-
 The `R.grab` function returns `True` if a token was successfully picked up, or `False` otherwise. If the robot is already holding a token, it will throw an `AlreadyHoldingSomethingException`.
-
-
 
 To drop the token, call the `R.release` method.
 
-
-
 Cable-tie flails are not implemented.
-
-
 
 ### Vision ###
 
-
-
 To help the robot find tokens and navigate, each token has markers stuck to it, as does each wall. The `R.see` method returns a list of all the markers the robot can see, as `Marker` objects. The robot can only see markers which it is facing towards.
 
-
-
 Each `Marker` object has the following attributes:
-
-
 
 * `info`: a `MarkerInfo` object describing the marker itself. Has the following attributes:
 
@@ -241,11 +175,7 @@ Each `Marker` object has the following attributes:
 
 * `timestamp`: the time at which the marker was seen (when `R.see` was called).
 
-
-
 For example, the following code lists all of the markers the robot can see:
-
-
 
 ```python
 markers = R.see()
@@ -256,7 +186,13 @@ for m in markers:
     elif m.info.marker_type == MARKER_ARENA:
         print " - Arena marker {0} is {1} metres away".format( m.info.offset, m.dist )
 ```
-
-
-
 [sr-api]: https://studentrobotics.org/docs/programming/sr/
+
+## Conclusion
+
+As a result our robot fully capable of finding silver and golden tokens and successfully completing the assigned task no matter how many tokens. The robot can be improved by the following methods:
+
+* Increasing the robot's field of view
+* Avoiding other tokens
+
+**Note:** Now our robot fully autonomous but if the number of the silver and golden tokens are not equal and the number of the silver tokens is more than golden tokens number our program can be crash.
