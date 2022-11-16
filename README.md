@@ -30,7 +30,9 @@ The solutions of the assignment can be found in the **solutions (python_simulato
 
 To run these solutions in the simulator **cd** to **robot-sim** directory, use `run.py`, passing it the file names.
 
- Not autonomous &rarr; ```bash $ python run.py solutions/exercise1_solution.py ```
+ Not autonomous &rarr; ``` $ python run.py solutions/Not_autonomous_solution.py ```
+ Semi autonomous &rarr; ``` $ python run.py solutions/Semi_autonomous_solution.py ```
+ Full autonomous &rarr; ``` $ python run.py solutions/Full_autonomous_solution.py ```
 
 
 
