@@ -79,7 +79,7 @@ The Semi autonomous solution can be thought of as upgrading Non autonomous solut
 Note: Although the robot's autonomous level increases with this solution, the user must specify the total token number **manually** in the code.
 
 ```python
- if len(Taken_tokens)==12:                       # If we collect all 6 silver tokens and used all 6 golden tokens; Length of the Taken_token array will be 12, now we can exit from system our task has been completed successfuly
+ if len(Taken_tokens)==12:                       
 
     		print("Well done assignment completed successfully")
 
