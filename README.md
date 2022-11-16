@@ -85,12 +85,31 @@ Note: Although the robot's autonomous level increases with this solution, the us
 
     		exit()
 ```
+------------------------------------------
 
+## Full Autonomous Solution
 
+In this solution "manually entering" issues from Not autonomous and semi autonomous solutions are solved. After using all tokens our robot turning 360 degree to check if there is any silver token left if not ending program. Now our robot capable of:
 
+* Finding closest silver token and grabing it.
+* Finding closest golden token and releasing silver token near to golden token.
+* Not using already taken silver and golden tokens.
+* Ending task when there is no silver token left.
 
+```python
 
+	if offset in Taken_tokens:                    
 
+		turn(+40, 0.1)                       
+  print("Looking for not already taken Silver Token")
+		complete = complete + 1  
+		
+  if complete == 24:    
+				print("I turned 360 degree and couldn`t see any not taken  silver Token")
+				print("MISSION COMPLETE")
+				exit()        # And the System because there is no any silver token left
+ ```
+Note: When integer variable coplete is equal to 24 this mean our Robot turned 360 degree. Turn(40,0.1) function is turning our robot 15 degree (15*24=360).
 
 
 
