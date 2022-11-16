@@ -1,6 +1,6 @@
 # RESEARCH TRACK 1  ASSIGNMENT 1
-
-## GOAL 
+-------------------------------------------------
+## Goal Of The Assıgnment
 
 The aim of this assignment is create a python node that: 
 
@@ -9,7 +9,7 @@ The aim of this assignment is create a python node that:
 3. After grabing silver token, **find closest golden token** and **release** the silver token near to golden one.
 4. Repeat these prosesses **whitout using same silver and golden tokens** until there are no silver tokens left.
 
-
+---------------------------------------------------
 
 ### Installing and running
 
