@@ -98,13 +98,13 @@ In this solution "manually entering" issues from Not autonomous and semi autonom
 
 ```python
 
-	if offset in Taken_tokens:                    
+  if offset in Taken_tokens:                    
 
 		turn(+40, 0.1)                       
-  print("Looking for not already taken Silver Token")
+  		print("Looking for not already taken Silver Token")
 		complete = complete + 1  
 		
-  if complete == 24:    
+  		if complete == 24:    
 				print("I turned 360 degree and couldn`t see any not taken  silver Token")
 				print("MISSION COMPLETE")
 				exit()        # And the System because there is no any silver token left
