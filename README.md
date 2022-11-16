@@ -4,10 +4,10 @@
 
 The aim of this assignment is create a python node that: 
 
-1. Give ability to robot *distinguish between silver and golden tokens*.
-2. Find the *closest silver token* and *grab* it.
-3. After grabing silver token, *find closest golden token* and *release* the silver token near to golden one.
-4. Repeat these prosesses whitout using same silver and golden tokens until there are no silver tokens left.
+1. Give ability to robot **distinguish between silver** and **golden tokens**.
+2. Find the **closest silver token** and **grab** it.
+3. After grabing silver token, **find closest golden token** and **release** the silver token near to golden one.
+4. Repeat these prosesses **whitout using same silver and golden tokens** until there are no silver tokens left.
 
 
 
