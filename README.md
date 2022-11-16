@@ -67,6 +67,37 @@ Note: The issue of this solution is you have to find the offset numbers of token
 
 -----------------------------------
 
+## Semi Autonomous Solution
+
+The Semi autonomous solution can be thought of as upgrading Non autonomous solution to become more autonomous. The issue of manually entering offset numbers to the arrays found the solution here. Now robot capable of:
+
+* Finding closest silver token and grabing it.
+* Finding closest golden token and releasing silver token near to golden token.
+* Not using already taken silver and golden tokens.
+* Ending task when all **12** tokens are used.
+
+Note: Although the robot's autonomous level increases with this solution, the user must specify the total token number **manually** in the code.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
