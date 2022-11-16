@@ -1,7 +1,7 @@
  RESEARCH TRACK 1  ASSIGNMENT 1
 ================================
 
-## Goal Of The Assıgnment
+## Goal Of The Assignment
 
 The aim of this assignment is create a python node that: 
 
@@ -30,9 +30,8 @@ The solutions of the assignment can be found in the **solutions (python_simulato
 
 To run these solutions in the simulator **cd** to **robot-sim** directory, use `run.py`, passing it the file names.
 
- Not autonomous &rarr; ```bash
-$ python run.py solutions/exercise1_solution.py
-```
+ Not autonomous &rarr; ``` bash $ python run.py solutions/exercise1_solution.py ```
+
 
 
 
