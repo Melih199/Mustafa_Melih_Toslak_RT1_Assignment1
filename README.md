@@ -10,6 +10,9 @@ The aim of this assignment is create a python node that:
 3. After grabing silver token, **find closest golden token** and **release** the silver token near to golden one.
 4. Repeat these prosesses **whitout using same silver and golden tokens** until there are no silver tokens left.
 
+
+![github](https://user-images.githubusercontent.com/58879182/202067129-90583e59-b3b1-45e2-af43-7353eba48369.png)
+
 ----------------------------------
 
 ## Installation
