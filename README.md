@@ -11,7 +11,7 @@ The aim of this assignment is create a python node that:
 
 ---------------------------------------------------
 
-## Installition
+## Installation
 
 ----------------------
 The simulator requires a **Python 2.7** installation, the [pygame](http://pygame.org/) library, [PyPyBox2D](https://pypi.python.org/pypi/pypybox2d/2.1-r331), and [PyYAML](https://pypi.python.org/pypi/PyYAML/).
